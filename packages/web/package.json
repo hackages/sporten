@@ -1,0 +1,29 @@
+{
+  "name": "sporten",
+  "version": "0.0.1",
+  "description": "sporten web apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "hackages test",
+    "start": "hackages live & hackages watch",
+    "build": "hackages build"
+  },
+  "keywords": [
+    "react",
+    "sporten",
+    "hackages",
+    "product",
+    "redux",
+    "sport"
+  ],
+  "author": "007@hackages.io",
+  "license": "MIT",
+  "dependencies": {
+    "material-design-lite": "^1.1.3",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-facebook-login": "^2.1.3",
+    "react-router": "^2.3.0",
+    "xhr": "^2.2.0"
+  }
+}
