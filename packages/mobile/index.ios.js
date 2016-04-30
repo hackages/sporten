@@ -12,12 +12,13 @@ import React, {
 } from 'react-native';
 
 import App from './components/';
+import Profile from './components/profile';
 
 class sporten extends Component {
   render() {
     return (
       <View>
-       <App/>
+       <Profile/>
       </View>
     );
   }
