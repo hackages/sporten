@@ -30,8 +30,7 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    // backgroundColor: '#0281C3',
-    backgroundColor: 'white',
+    backgroundColor: '#0281C3',
     height: height/3,
   },
   text: {
