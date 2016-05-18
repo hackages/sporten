@@ -1,0 +1,22 @@
+body {
+  height: 100hv;
+  width: 100%;
+}
+
+header {
+  min-height: 500px;
+  background-color: #1976D2;
+}
+
+.sub-header {
+  height: 100px;
+  background-color: #BBDEFB;
+}
+
+.profile {
+  margin: auto;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+
+}
