@@ -1,11 +1,13 @@
 body {
   height: 100hv;
-  width: 100%;
 }
 
 header {
-  min-height: 500px;
+  min-height: 400px;
   background-color: #1976D2;
+  line-height: 80px;
+  text-align: center;
+  padding: 1em;
 }
 
 .sub-header {
@@ -14,9 +16,19 @@ header {
 }
 
 .profile {
-  margin: auto;
-  height: 250px;
+  height: 240px;
   width: 250px;
   border-radius: 50%;
+}
 
+.username {
+  font-size: 3em;
+  font-weight: 600;
+  color: white;
+}
+
+.number {
+  font-size: 3em;
+  font-weight: 800;
+  color: white;
 }

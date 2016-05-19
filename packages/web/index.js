@@ -10,7 +10,7 @@ import EventDetailsPage from './components/event';
 const Main = () => {
   return (
     <Router history={ hashHistory }>
-       <Route path="/" component={ App }/>
+       <Route path="/" component={ ProfilePage }/>
        <Route path="/profile" component={ ProfilePage }/>
        <Route path="/events" component={ EventsPage }/>
        <Route path="/event" component={ EventDetailsPage }/>
