@@ -1,7 +1,0 @@
-{
-  "private": true,
-  "dependencies": {
-    "lerna": "^1.1.2",
-    "xmldom": "^0.1.22"
-  }
-}
