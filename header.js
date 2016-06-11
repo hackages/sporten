@@ -17,11 +17,6 @@ class Header extends Component {
   render() {
     return (
       <View style={ styles.container }>
-        <View style={ styles.header }>
-          <Text style={ styles.headerText }>
-            Sporten ({fullHeight})
-          </Text>
-        </View>
         <View style={ styles.content }>
           <Tabs/>
         </View>
@@ -30,7 +25,14 @@ class Header extends Component {
   }
 }
 
-const headerHeight = 80;
+// <View style={ styles.header }>
+//           <Text style={ styles.headerText }>
+//             Sporten ({fullHeight})
+//           </Text>
+//         </View>
+
+
+const headerHeight = 0;
 const contentHeight = fullHeight - headerHeight;
 
 const styles = StyleSheet.create({
